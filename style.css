@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(./assets/Norse-Bold.otf);
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -12,19 +17,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 
-.left img{
-    width: 550px;
-    height: 100%;
-}
 
 .left {
-    width: 550px;
+    width: 800px;
     height: 100%;
+    background-image: url(./assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .form {
@@ -36,7 +39,64 @@
 }
 
 .form-container {
-    width: 100%;
-    height: 45%;
+    padding: 50px;
+    width: 92%;
+    height: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.odin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.226);
+    height: 170px;
+}
+
+.odin p img {
+    width: 120px;
+    height: 160px;
+}
+
+.odin p {
+    font-family: Norse-Bold;
+    font-size: 100px;
+    color: white;
+}
+
+.odin img {
+    width: 100px;
+    height: 140px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 40px;
+}
+
+.account {
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #596D48;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 90px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.login {
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #596D48;
 }
